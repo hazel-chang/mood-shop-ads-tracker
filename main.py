@@ -24,7 +24,7 @@ LINE_USER_ID = os.environ.get("LINE_USER_ID", "").strip()
 LINE_GROUP_ID = os.environ.get("LINE_GROUP_ID", "").strip()
 
 # 預算單位除數（TWD/JPY/KRW = 1，USD/EUR = 100）
-CURRENCY_DIVISOR = float(os.environ.get("CURRENCY_DIVISOR", "1"))
+CURRENCY_DIVISOR = float(os.environ.get("CURRENCY_DIVISOR") or "1")
 
 # ============ 常數 ============
 STATE_FILE = Path(__file__).parent / "state.json"
