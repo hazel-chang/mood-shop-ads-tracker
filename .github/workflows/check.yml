@@ -1,0 +1,58 @@
+name: Check Meta Ads
+
+on:
+  schedule:
+    # GitHub Actions 排程使用 UTC，每 5 分鐘觸發一次
+    - cron: "*/5 * * * *"
+  workflow_dispatch:  # 也允許手動觸發測試
+
+permissions:
+  contents: write  # 需要寫權限以 commit state.json
+
+concurrency:
+  group: ads-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tracker
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_AD_ACCOUNT_ID: ${{ secrets.META_AD_ACCOUNT_ID }}
+          LINE_CHANNEL_TOKEN: ${{ secrets.LINE_CHANNEL_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          LINE_GROUP_ID: ${{ secrets.LINE_GROUP_ID }}
+          CURRENCY_DIVISOR: ${{ secrets.CURRENCY_DIVISOR }}
+        run: python main.py
+
+      - name: Commit state.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status --porcelain state.json) ]]; then
+            git add state.json
+            git commit -m "chore: state $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            # 處理 race condition（萬一兩次 run 重疊）
+            for i in 1 2 3; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+              echo "retry $i..."
+              sleep 2
+            done
+          else
+            echo "No state changes."
+          fi
