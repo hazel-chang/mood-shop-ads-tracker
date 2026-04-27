@@ -1,11 +1,11 @@
 {
   "date": "2026-04-27",
-  "total_spend": 673.0,
-  "total_milestone": 0,
+  "total_spend": 1140.0,
+  "total_milestone": 1,
   "ads": {
     "120249663394350273": {
       "name": "4/27 晚上場",
-      "spend": 673.0,
+      "spend": 1140.0,
       "budget": 7000.0,
       "effective_status": "ACTIVE",
       "started_notified": true,
@@ -13,5 +13,5 @@
       "ended_notified": false
     }
   },
-  "last_run": "2026-04-27T20:55:15.381284+08:00"
+  "last_run": "2026-04-27T23:07:01.780123+08:00"
 }
