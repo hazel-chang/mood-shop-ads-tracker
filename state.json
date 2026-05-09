@@ -1,7 +1,35 @@
 {
   "date": "2026-05-09",
-  "total_spend": 0.0,
-  "total_milestone": 0,
-  "ads": {},
-  "last_run": "2026-05-09T19:35:06.608677+08:00"
+  "total_spend": 1118.0,
+  "total_milestone": 1,
+  "ads": {
+    "120250360317080273": {
+      "name": "5/9服飾 晚上場",
+      "spend": 330.0,
+      "budget": 0.0,
+      "effective_status": "ACTIVE",
+      "started_notified": true,
+      "threshold_notified": false,
+      "ended_notified": false
+    },
+    "120250360317100273": {
+      "name": "5/9 服飾 晚上場",
+      "spend": 354.0,
+      "budget": 0.0,
+      "effective_status": "ACTIVE",
+      "started_notified": true,
+      "threshold_notified": false,
+      "ended_notified": false
+    },
+    "120250360317140273": {
+      "name": "5/9 服飾 晚上場",
+      "spend": 434.0,
+      "budget": 0.0,
+      "effective_status": "ACTIVE",
+      "started_notified": true,
+      "threshold_notified": false,
+      "ended_notified": false
+    }
+  },
+  "last_run": "2026-05-09T20:38:53.857286+08:00"
 }
