@@ -1,11 +1,11 @@
 {
   "date": "2026-05-11",
-  "total_spend": 271.0,
+  "total_spend": 272.0,
   "total_milestone": 0,
   "ads": {
     "120250485982650273": {
       "name": "5/10 服飾 晚上場",
-      "spend": 241.0,
+      "spend": 242.0,
       "budget": 0.0,
       "effective_status": "ACTIVE",
       "started_notified": true,
@@ -22,5 +22,5 @@
       "ended_notified": false
     }
   },
-  "last_run": "2026-05-11T02:06:41.015135+08:00"
+  "last_run": "2026-05-11T03:21:00.812058+08:00"
 }
