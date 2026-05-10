@@ -1,53 +1,7 @@
 {
-  "date": "2026-05-10",
-  "total_spend": 15924.0,
-  "total_milestone": 15,
-  "ads": {
-    "120250485982620273": {
-      "name": "5/10 服飾 晚上場",
-      "spend": 2705.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    },
-    "120250485982640273": {
-      "name": "5/10 服飾 晚上場",
-      "spend": 4074.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    },
-    "120250485982650273": {
-      "name": "5/10 服飾 晚上場",
-      "spend": 3312.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    },
-    "120250485982660273": {
-      "name": "5/10 服飾 晚上場",
-      "spend": 2586.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    },
-    "120250486555930273": {
-      "name": "5/10 服飾 晚上場",
-      "spend": 3247.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    }
-  },
-  "last_run": "2026-05-10T23:09:17.794344+08:00"
+  "date": "2026-05-11",
+  "total_spend": 0.0,
+  "total_milestone": 0,
+  "ads": {},
+  "last_run": "2026-05-11T00:08:24.719525+08:00"
 }
