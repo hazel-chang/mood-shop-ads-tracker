@@ -1,35 +1,7 @@
 {
-  "date": "2026-05-12",
-  "total_spend": 3491.0,
-  "total_milestone": 3,
-  "ads": {
-    "120250363567640273": {
-      "name": "5/12 服飾 晚上場",
-      "spend": 960.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    },
-    "120250363567650273": {
-      "name": "5/12 服飾 晚上場",
-      "spend": 0.0,
-      "budget": 0.0,
-      "effective_status": "ADSET_PAUSED",
-      "started_notified": false,
-      "threshold_notified": false,
-      "ended_notified": false
-    },
-    "120250609823010273": {
-      "name": "5/12 服飾 晚上場",
-      "spend": 2531.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    }
-  },
-  "last_run": "2026-05-12T23:17:04.916747+08:00"
+  "date": "2026-05-13",
+  "total_spend": 0.0,
+  "total_milestone": 0,
+  "ads": {},
+  "last_run": "2026-05-13T01:26:21.437687+08:00"
 }
