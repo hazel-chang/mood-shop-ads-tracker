@@ -1,17 +1,7 @@
 {
-  "date": "2026-05-18",
-  "total_spend": 417.0,
+  "date": "2026-05-19",
+  "total_spend": 0.0,
   "total_milestone": 0,
-  "ads": {
-    "120250994640030273": {
-      "name": "5/18 晚上場",
-      "spend": 417.0,
-      "budget": 0.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    }
-  },
-  "last_run": "2026-05-18T20:55:44.299459+08:00"
+  "ads": {},
+  "last_run": "2026-05-19T00:24:06.711253+08:00"
 }
