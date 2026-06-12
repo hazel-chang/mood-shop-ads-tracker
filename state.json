@@ -1,26 +1,7 @@
 {
-  "date": "2026-06-12",
-  "total_spend": 4910.0,
-  "total_milestone": 4,
-  "ads": {
-    "120252904251750273": {
-      "name": "6/12 服飾 晚上場",
-      "spend": 4151.0,
-      "budget": 15000.0,
-      "effective_status": "CAMPAIGN_PAUSED",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": true
-    },
-    "120252904251760273": {
-      "name": "6/12 服飾 晚上場",
-      "spend": 759.0,
-      "budget": 15000.0,
-      "effective_status": "CAMPAIGN_PAUSED",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": true
-    }
-  },
-  "last_run": "2026-06-12T23:47:00.577293+08:00"
+  "date": "2026-06-13",
+  "total_spend": 0.0,
+  "total_milestone": 0,
+  "ads": {},
+  "last_run": "2026-06-13T01:54:23.199425+08:00"
 }
