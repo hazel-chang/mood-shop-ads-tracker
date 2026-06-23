@@ -1,17 +1,7 @@
 {
-  "date": "2026-06-23",
-  "total_spend": 2091.0,
-  "total_milestone": 2,
-  "ads": {
-    "120253651954350273": {
-      "name": "6/23 晚上場",
-      "spend": 2091.0,
-      "budget": 8000.0,
-      "effective_status": "ACTIVE",
-      "started_notified": true,
-      "threshold_notified": false,
-      "ended_notified": false
-    }
-  },
-  "last_run": "2026-06-23T22:00:46.601655+08:00"
+  "date": "2026-06-24",
+  "total_spend": 0.0,
+  "total_milestone": 0,
+  "ads": {},
+  "last_run": "2026-06-24T00:32:09.932560+08:00"
 }
